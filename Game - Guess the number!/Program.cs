@@ -67,5 +67,11 @@
             i++;
 
         } while (user != random);
+
+        Console.ForegroundColor = ConsoleColor.Green;
+        Console.WriteLine($"Good job! You win! You guessed it {i} time.");
+        Console.ResetColor();
+
+        Console.ReadKey();
     }
 }
